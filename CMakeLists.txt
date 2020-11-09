@@ -17,6 +17,9 @@ set(CMAKE_CXX_EXTENSIONs OFF)
 
 add_executable(main
   project5.cpp
+  Track.h
+  Disc.h
+  DiscList.h
   LinkedList.h
   ListInterface.h
   Node.h
