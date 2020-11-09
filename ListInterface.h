@@ -1,9 +1,6 @@
 #ifndef LIST_INTERFACE_
 #define LIST_INTERFACE_
 
-/** @class ListInterface ListInterface.h "ListInterface.h"
- *
- *  Definition of ListInterface class template. */
 template <typename ItemType>
 class ListInterface {
 public:

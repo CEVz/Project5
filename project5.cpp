@@ -6,7 +6,7 @@
 
 int main(){
 
-	std::shared_ptr;
+	//std::shared_ptr;
 	std::unique_ptr<int>;
 	std::weak_ptr<int>;
 	return 0;
