@@ -2,12 +2,14 @@
 #include <string>
 #include <vector>
 
-using namespace std;
+
 
 int main(){
 
-
-  return 0;
+	std::shared_ptr;
+	std::unique_ptr<int>;
+	std::weak_ptr<int>;
+	return 0;
 
 
 
