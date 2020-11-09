@@ -11,12 +11,6 @@
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
       "variables": []
-    },
-    {
-      "name": "Existing Cache",
-      "cacheRoot": "",
-      "inheritEnvironments": [],
-      "variables": []
     }
   ]
 }
