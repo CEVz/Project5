@@ -5,7 +5,11 @@ project("Project 5"
   DESCRIPTION "CS 1521 Project 5"
   LANGUAGES CXX)
 
-add_compile_options(-Wall -Wextra -Wpedantic)
+if ("${CMAKE_C_COMPILER_ID}" STREQUAL "MSVC")
+  add_compile_options(-Wall)
+elseif ("${CMAKE_C_COMPILER_ID}" STREQUAL "GNU")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
