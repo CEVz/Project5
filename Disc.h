@@ -2,6 +2,9 @@
 
 #include <string>
 
+#include "Track.h"
+#include "LinkedList.h"
+
 class Disc {
 
 private:
@@ -12,7 +15,7 @@ private:
 	std::string genre;
 	int totalPlayTime;
 	bool multiArtist;
-	Linkedlist<Tracks*>* trackListPtr;
+	LinkedList<Track*> trackListPtr;
 
 public:
 

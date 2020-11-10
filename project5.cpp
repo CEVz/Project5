@@ -6,20 +6,36 @@
 
 #include "LinkedList.h"
 #include "PrecondViolatedExcep.h"
+#include "DiscList.h"
+#include "Disc.h"
+#include "Track.h"
 
-int main(){
+int main() {
 
-	//std::shared_ptr;
-	//std::unique_ptr<int>;
-	//std::weak_ptr<int>;
-	
+	char input;
 
-	
+	LinkedList<std::string> song;
 
+	std::cin >> input;
 
-	return 0;
-
-
-
-
+	do {
+		switch (input) {
+		case 'A':
+			std::cout << input << std::endl;
+			song.isEmpty();
+		case 'R':
+			std::cout << input << std::endl;
+			break;
+		case 'P':
+			std::cout << input << std::endl;
+			break;
+		case 'L':
+			std::cout << input << std::endl;
+			break;
+		case 'Q':
+			std::cout << input << std::endl;
+			break;
+		}
+		return 0;
+	} while (input != 'Q');
 }

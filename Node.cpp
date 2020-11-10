@@ -14,7 +14,7 @@ Node<ItemType>::Node(const ItemType& anItem,
 template <typename ItemType>
 Node<ItemType>::~Node() {
 
-   std::cerr << "Node destructor called. on:"
+   std::cerr << "Node destructor has been called:"
              << "\n\titem: "
              << item
              << "\n\tnext: "

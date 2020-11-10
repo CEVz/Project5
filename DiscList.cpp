@@ -17,7 +17,7 @@ int DiscList::getNumberOfDiscs() const {
 bool DiscList::insertDisc(Disc* aDiscPtr) {
 
 
-	return 0;
+	
 
 }
 
@@ -29,7 +29,7 @@ bool DiscList::removeDisc(Disc* aDiscPtr) {
 
 Disc* DiscList::retrieveDisc(int number) const {
 
-	return 0;
+	return discListPtr;
 
 }
 

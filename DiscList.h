@@ -7,6 +7,7 @@
 class DiscList {
 
 private:
+	
 	LinkedList<Disc*>* discListPtr;
 
 public:

@@ -2,6 +2,9 @@
 
 #include <string>
 
+#include "Disc.h"
+#include "DiscList.h"
+
 class Track {
 
 private:
@@ -16,13 +19,13 @@ private:
 	
 	int number;
 	
-	Disc* discPtr;
+	Track* discPtr;
 
 	Track() = delete;
 
 public:
 
-	Track(Disc* discPtr);
+	//Track(Disc* discPtr);
 	
 	void printTrack() const;
 	
